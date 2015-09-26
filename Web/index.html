@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<link rel="stylesheet" href="css/bootstrap.css" />
-<link rel="stylesheet" href="css/style.css" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="author"
+	content="Sujit Singh, Prateek Kathoke">
+
 <link rel="stylesheet" href="css/cssreset-min.css" />
 <link rel="stylesheet" href="css/bootstrap.css" />
-<title>Big Brother Hostel</title>
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<title>" BIG BROTHER HOSTEL "</title>
 </head>
-<body>
-<div class="container">
-            <div class='top-strip'></div>
-          <div class="row tpm">
-             <div class='col-md-3 centerimg'>
-				<img src="img/bigBrotherLogo.png"  class="img-thumbnail img-responsive no-border">
+<header class="navbar navbar-static-top ">
+	<div class="container">
+		<div class="row">
+			<div class='col-sm-3 col-md-3 img-margin'>
+				<img src="img/bigBrotherLogo.png" alt="Logo" width="500px"
+					height="300px" class="img-thumbnail img-responsive no-border">
 			</div>
-			<div class='col-md-9'>
+			<div class='col-sm-9 col-md-9'>
 				<nav class="navbar navbar-default nav-top-marg">
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->
@@ -35,16 +41,16 @@
 							id="bs-example-navbar-collapse-9">
 							<ul class="nav navbar-nav">
 								<li class="active"><a href="#">Home</a></li>
-								<li class="dropdown"><a class="dropdown-toggle"
+								<li class="dropdown"><a class="dropdown-toggle navbar-view"
 									data-toggle="dropdown" href="#">Hostels <span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a href="#">Big Brother Agra</a></li>
 										<li><a href="#">Big Brother Kota</a></li>
 									</ul></li>
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Contact</a></li>
-								<li><a href="#">Booking</a></li>
+								<li><a class="navbar-view" href="#">About Us</a></li>
+								<li><a class="navbar-view" href="#">Services</a></li>
+								<li><a class="navbar-view" href="#">Contact</a></li>
+								<li><a class="navbar-view" href="#">Booking</a></li>
 							</ul>
 						</div>
 						<!-- /.navbar-collapse -->
@@ -52,36 +58,76 @@
 					<!-- /.container-fluid -->
 				</nav>
 			</div>
-		</div>      
-            <div class="row">
-  				<div class="col-sm-6 col-md-4">
-    					<div class="thumbnail">
-      						<img src="img/imageGoa.jpg" alt="100%x200" class="img-thumbnail img-responsive no-border"data-holder-rendered="true" >
-      							<div class="caption">
-      							       <div class="padding"><h3><span>GOA</span></h3></div>
-                                      <p>Big Brother Coming Soon to Goa</p> 
-      							</div>
-    					</div>
-  				  </div>
-  				<div class="col-sm-6 col-md-4">
-    					<div class="thumbnail">
-      						<img src="img/imageAgra1.jpg" alt="100%x200" class="img-thumbnail img-responsive no-border" data-holder-rendered="true">
-      							<div class="caption">
-                                    <h3><span>AGRA</span></h3>
-                                       <p>Big Brother Coming Soon to AGRA</p>
-      							</div>
-    					</div>
-  				  </div>
-  				<div class="col-sm-6 col-md-4">
-    					<div class="thumbnail">
-      						<img src="img/imageJaipur.jpg" alt="100%x200" class="img-thumbnail img-responsive no-border" data-holder-rendered="true">
-      							<div class="caption">
-                                     <h3><span>Jaipur</span></h3>
-                                       <p>Big Brother Coming Soon to Jaipur</p>
-      							</div>
-  				      </div>
+		</div>
+	</div>
+</header>
+        <!--Document content Layout -->
+<div class="container">
+	<div class='col-sm-12 col-md-12 thumbnail-background '>
+		<div class="col-sm-6 col-md-4">
+			<img src="img/imageAgra.jpg"
+				class="img-thumbnail img-responsive no-border size"
+				data-holder-rendered="true">
+			<div class="img-text">
+				<h3>AGRA</h3>
 			</div>
-    </div>
- </div>   
-</body>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<img src="img/imageKota.jpg"
+				class="img-thumbnail img-responsive no-border size"
+				data-holder-rendered="true">
+			<div class="img-text">
+				<h3>KOTA</h3>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<img src="img/imageBhopal.jpg"
+				class="img-thumbnail img-responsive no-border size"
+				data-holder-rendered="true">
+			<div class="img-text">
+				<h3>BHOPAL</h3>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<img src="img/imageGoa.jpg"
+				class="img-thumbnail img-responsive no-border size"
+				data-holder-rendered="true">
+			<div class="img-text">
+				<h3>GOA</h3>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4">
+			<img src="img/imageDelhi.jpg"
+				class="img-thumbnail img-responsive no-border size"
+				data-holder-rendered="true">
+			<div class="img-text">
+				<h3>DELHI</h3>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4">
+			<img src="img/imageVaranasi.jpg"
+				class="img-thumbnail img-responsive no-border size"
+				data-holder-rendered="true">
+			<div class="img-text">
+				<h3>VARANASI</h3>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4">
+			<img src="img/imageJaipur.jpg"
+				class="img-thumbnail img-responsive no-border size"
+				data-holder-rendered="true">
+			<div class="img-text">
+				<h3>JAIPUR</h3>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- Footer
+================================================== -->
+	<footer class="footer">
+		<div class="container">  </div>
+	</footer>
 </html>
